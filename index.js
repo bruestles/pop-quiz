@@ -26,4 +26,12 @@ if (answer3 === "calves") {
   alert("Incorrect! A cow has calves.");
 }
 
-alert(`You got ${score} out of 3 questions correct.`);
+if (score === 0) {
+  alert(`You got ${score}. Try harder next time!`);
+} else if (score === 1) {
+  alert(`You got ${score}. You can do better!`);
+} else if (score === 2) {
+  alert(`You got ${score}. Good job!`);
+} else {
+  alert(`You got ${score}. Excellent work!`);
+}
