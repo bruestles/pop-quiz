@@ -28,10 +28,8 @@ if (answer3 === "calves") {
 
 if (score === 0) {
   alert(`You got ${score}. Try harder next time!`);
-} else if (score === 1) {
+} else if (score === 1 || score === 2) {
   alert(`You got ${score}. You can do better!`);
-} else if (score === 2) {
-  alert(`You got ${score}. Good job!`);
 } else {
   alert(`You got ${score}. Excellent work!`);
 }
